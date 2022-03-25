@@ -1,0 +1,66 @@
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem 0.75rem !important;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;
+    background-color: #7fad39;
+  }
+  .accordion-button:not(.collapsed) {
+    color: #ffff;
+    background-color: #7fad39;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+  }
+  .btn-search {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #7fad39;
+    border: 1px solid #7fad39;
+  }
+  .call-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f6f6f6;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner-number {
+    font-weight: 700;
+  }
+  .banner-content {
+    height: 70vh;
+    background-image: url("../../../../Asset/slid1.png");
+    background-size: 67%;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-color: #f6f6f6;
+    margin-left: 2px;
+  }
+  .banner-text h1 {
+    font-size: 46px;
+    font-weight: 700;
+  }
+  .banner-text h6 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #7fad39;
+  }
+  .banner-text p {
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+    color: #6f6f6f;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+  }
+  

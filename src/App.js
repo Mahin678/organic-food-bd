@@ -1,12 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Home from "./Components/Pages/Home/Home";
+import 'bootstrap/dist/css/bootstrap.min.css'
+import "slick-carousel/slick/slick.css";
 
-function App() {
+import "slick-carousel/slick/slick-theme.css";
+export default function App() {
   return (
-    <div className="App">
-      o
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />}> 
+      </Route>
+    </Routes>
+  </BrowserRouter>
+        
   );
 }
-
-export default App;

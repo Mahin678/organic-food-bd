@@ -1,0 +1,136 @@
+.nav-container {
+  display: flex;
+}
+.nav-container__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+.nav-container > img {
+  display: block;
+}
+.nav-container__option {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-container__option a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #252525;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -ms-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+  padding: 5px 0;
+  display: block;
+}
+.nav-container__product-info {
+  display: flex;
+}
+.nav-container__product-info svg {
+  font-size: 21px;
+  margin-left: 10px;
+}
+.nav-container__product-info__item span {
+  color: #252525;
+  font-weight: 700;
+}
+.nav-container__product-info__item {
+  font-size: 14px;
+  color: #6f6f6f;
+  margin-left: 20px;
+}
+/* fOOTER STYLE */
+.footer-container {
+  background: #f3f6fa;
+  padding-top: 70px;
+  padding-bottom: 0;
+}
+.footer-container ul{
+  list-style: none;
+  padding: 0px;   
+  font-family: 'Cairo', sans-serif;
+}
+.footer-container ul li{
+  font-size: 16px;
+  color: #1c1c1c;
+  line-height: 36px;
+}
+.footer-container ul li a {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-size: 14px;
+  line-height: 32px;
+}
+.footer__about {
+
+}
+.footer__about ul {
+
+}
+.footer__about ul li {
+
+}
+.footer__widget p {
+  font-size: 14px;
+  color: #1c1c1c;
+  margin-bottom: 30px;
+}
+.footer__widget h6 {
+  color: #1c1c1c;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.footer__widget form {
+  position: relative;
+  margin-bottom: 30px;
+}
+.footer__widget form input {
+  width: 100%;
+  font-size: 16px;
+  padding-left: 20px;
+  color: #1c1c1c;
+  height: 46px;
+  border: 1px solid #ededed;
+}
+.footer__widget form button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0 26px;
+  height: 100%;
+}
+.site-btn {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 13px 30px 12px;
+  background: #7fad39;
+  border: none;
+}
+.footer__copyright {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  border-top: 1px solid #ddd;
+  padding: 25px 0px;
+}
+.footer__copyright p {
+  margin: 0px;
+  font-size: 16px;
+  font-family: "Cairo",sans-serif;
+  color: #6f6f6f;
+  font-weight: 400;
+}
+.footer__copyright img {
+  display: block;
+  object-fit: contain;
+} 
